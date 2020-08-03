@@ -27,3 +27,4 @@ resposta = df_resposta.to_json(orient='index')
 arquivo_resposta = open ("submission","w")
 arquivo_resposta.write(resposta)
 arquivo_resposta.close()
+
